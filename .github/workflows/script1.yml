@@ -127,6 +127,8 @@ jobs:
           ],
           "job_clusters": [
             {
+              "job_cluster_key": "serverless_cluster",
+              "new_cluster": {
                 "spark_version": "16.4.x-scala2.12",
                 "node_type_id": "Standard_D4s_v3",
                 "driver_node_type_id": "Standard_D4s_v3",
@@ -136,7 +138,7 @@ jobs:
                 "custom_tags": {
                   "environment": "production",
                   "team": "data-engineering"
-                },
+                }
               }
             }
           ],
